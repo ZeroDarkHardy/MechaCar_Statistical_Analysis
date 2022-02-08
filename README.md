@@ -37,10 +37,10 @@ Our [Suspension Coil dataset](https://github.com/ZeroDarkHardy/MechaCar_Statisti
 
 -Using the code shown above, we created our statistical summaries.
 
-Summary Statistics for total population of dataset:
+Summary Statistics for total population of dataset:<br/>
 ![total_summary_df.png](https://github.com/ZeroDarkHardy/MechaCar_Statistical_Analysis/blob/main/images/total_summary_df.png)
 
-Summary Statistics for each production lot:
+Summary Statistics for each production lot:<br/>
 ![lot_summary_df.png](https://github.com/ZeroDarkHardy/MechaCar_Statistical_Analysis/blob/main/images/lot_summary_df.png)
 
 - 
