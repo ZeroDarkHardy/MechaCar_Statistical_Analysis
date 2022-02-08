@@ -45,7 +45,7 @@ Summary Statistics for each production lot:<br/>
 
 - The range of variance shown in our Total Summary dataframe is within acceptable limits, but when we examine the metrics from the three different lots, we see that the vast majority of that variance is coming from a single lot: Lot 3.
 -  Lot 3 shows a variance range of 170.286, well outside of our acceptable limits.  The standard deviation shown in that lot's data is also almost 480% larger than the next lower value among the lots.  This implies that there are irregularities in the manufacturing process at Lot 3 (perhaps inconsistencies in workplace procedures, equipment or materials).
-- Lot 1 shows the most consistency in their data values, by far.
+- Lot 1 shows the most consistency in their data values, by far.  If the company is satisfied by the work quality of Lot 1, it should be used as a training and logistics model for all lots.
 
 
 ## T-Tests on Suspension Coils
@@ -69,3 +69,15 @@ Manufacturing Lot 3:<br/>
 - The P-value of this T-Test shows a slight statistical difference from the population mean. At 0.04168, this P-value is low enough for us to reject the null hypothesis.  Either this data needs to be collected again after addressing the irregularities in production quality at this lot, or this lot's data needs to be discarded to more accurately guage the work product of the other two lots.
 
 ## Comparison Study: MechaCar vs. Competition
+
+Our [MechaCar MPG dataset](https://github.com/ZeroDarkHardy/MechaCar_Statistical_Analysis/blob/main/Resources/MechaCar_mpg.csv) provides a general MPG rating for each vehicle produced, but another useful statistical comparison to make against the company's competitors would be to collect separate data for both highway and city-street fuel efficiency.  This is an important metric that many of today's commuters consider when purchasing a new car.
+
+- This comparison would likely need to be compartmentalized into smaller categories, allowing us to compare fuel efficiency between these driving environments for vehicles with similar drive types (AWD vs. 2WD).  The metrics to consider when performing this statistical comparison are:
+    - City and Highway fuel effiency as dependent variables
+    - Drivetrain type (2WD, 4WD, AWD) as independent variables (our dataset only contains a boolean value for the presence of AWD, more data will need to be collected to supplement our current dataset)
+    - Horsepower as an independent variable (not included in our current dataset, which will need to be supplemented)
+- Since we noticed a few important coeffients earlier, it would be good to see if those variables produce similar correlations in competitor data (this can be accomplished by performing the same tests on competitor data that we have here, and comparing the results):
+    - Vehicle length as an independent variable
+    - Ground clearance as an independent variable
+- Our null hypothesis would state that there is no statistical difference between the MechaCar and its competitors, when compared against similar categorical types.  
+    
