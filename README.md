@@ -43,17 +43,29 @@ Summary Statistics for total population of dataset:<br/>
 Summary Statistics for each production lot:<br/>
 ![lot_summary_df.png](https://github.com/ZeroDarkHardy/MechaCar_Statistical_Analysis/blob/main/images/lot_summary_df.png)
 
-- 
+- The range of variance shown in our Total Summary dataframe is within acceptable limits, but when we examine the metrics from the three different lots, we see that the vast majority of that variance is coming from a single lot: Lot 3.
+-  Lot 3 shows a variance range of 170.286, well outside of our acceptable limits.  The standard deviation shown in that lot's data is also almost 480% larger than the next lower value among the lots.  This implies that there are irregularities in the manufacturing process at Lot 3 (perhaps inconsistencies in workplace procedures, equipment or materials).
+- Lot 1 shows the most consistency in their data values, by far.
 
 
 ## T-Tests on Suspension Coils
 
-![deliverable3_1.png](https://github.com/ZeroDarkHardy/MechaCar_Statistical_Analysis/blob/main/images/deliverable3_1.png)
+We performed T-Tests on the Suspension Coil dataset to determine if all manufacturing lots, and each lot individually, are statistially different from the population mean of 1,500 pounds per square inch (PSI).
 
-![deliverable3_2.png](https://github.com/ZeroDarkHardy/MechaCar_Statistical_Analysis/blob/main/images/deliverable3_2.png)
+T-Test of whole population:<br/>
+![deliverable3_1.png](https://github.com/ZeroDarkHardy/MechaCar_Statistical_Analysis/blob/main/images/deliverable3_1.png)<br/>
+- The T-Test for all manufacturing lots shows that they are not statistically different from the population mean.  The P-value of 0.06028 is *almost* but not quite low enough to reject the null hypothesis.
 
-![deliverable3_3.png](https://github.com/ZeroDarkHardy/MechaCar_Statistical_Analysis/blob/main/images/deliverable3_3.png)
+Manufacturing Lot 1:<br/>
+![deliverable3_2.png](https://github.com/ZeroDarkHardy/MechaCar_Statistical_Analysis/blob/main/images/deliverable3_2.png)<br/>
+- This T-Test shows a P-Value of 1, which is not low enough to reject the null hypothesis.  This lot's data shows no statistically significant difference from the population mean of 1500.
 
-![deliverable3_4.png](https://github.com/ZeroDarkHardy/MechaCar_Statistical_Analysis/blob/main/images/deliverable3_4.png)
+Manufacturing Lot 2:<br/>
+![deliverable3_3.png](https://github.com/ZeroDarkHardy/MechaCar_Statistical_Analysis/blob/main/images/deliverable3_3.png)<br/>
+- This T-Test shows a P-Value of 0.6072, which is not low enough to reject the null hypothesis.  This lot's data shows no statistically significant difference from the population mean of 1500.
+
+Manufacturing Lot 3:<br/>
+![deliverable3_4.png](https://github.com/ZeroDarkHardy/MechaCar_Statistical_Analysis/blob/main/images/deliverable3_4.png)<br/>
+- The P-value of this T-Test shows a slight statistical difference from the population mean. At 0.04168, this P-value is low enough for us to reject the null hypothesis.  Either this data needs to be collected again after addressing the irregularities in production quality at this lot, or this lot's data needs to be discarded to more accurately guage the work product of the other two lots.
 
 ## Comparison Study: MechaCar vs. Competition
