@@ -9,7 +9,9 @@ AutosRUs' newest prototype, the MechaCar, is experiencing troubles that are inhi
 ## Resources
 
 Software/Languages: R v4.1.2, RStudio build 382 "Ghost Orchid"
+
 Source Data: [MechaCar MPG dataset](https://github.com/ZeroDarkHardy/MechaCar_Statistical_Analysis/blob/main/Resources/MechaCar_mpg.csv), [Suspension Coil dataset](https://github.com/ZeroDarkHardy/MechaCar_Statistical_Analysis/blob/main/Resources/Suspension_Coil.csv)
+
 Finished R Script: [MechaCarChallenge.R](https://github.com/ZeroDarkHardy/MechaCar_Statistical_Analysis/blob/main/MechaCarChallenge.R)
 
 ---
@@ -35,10 +37,13 @@ Our [Suspension Coil dataset](https://github.com/ZeroDarkHardy/MechaCar_Statisti
 
 -Using the code shown above, we created our statistical summaries.
 
+```Summary Statistics for total population of dataset:```
 ![total_summary_df.png](https://github.com/ZeroDarkHardy/MechaCar_Statistical_Analysis/blob/main/images/total_summary_df.png)
 
-
+```Summary Statistics for each production lot:```
 ![lot_summary_df.png](https://github.com/ZeroDarkHardy/MechaCar_Statistical_Analysis/blob/main/images/lot_summary_df.png)
+
+- 
 
 
 ## T-Tests on Suspension Coils
