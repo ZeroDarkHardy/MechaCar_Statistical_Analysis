@@ -9,16 +9,16 @@ AutosRUs' newest prototype, the MechaCar, is experiencing troubles that are inhi
 ## Resources
 
 Software/Languages: R v4.1.2, RStudio build 382 "Ghost Orchid"
-Source Data: [MechaCar MPG dataset](), [Suspension Coil dataset]()
-Our finished R Script: [MechaCarChallenge.R]()
+Source Data: [MechaCar MPG dataset](https://github.com/ZeroDarkHardy/MechaCar_Statistical_Analysis/blob/main/Resources/MechaCar_mpg.csv), [Suspension Coil dataset](https://github.com/ZeroDarkHardy/MechaCar_Statistical_Analysis/blob/main/Resources/Suspension_Coil.csv)
+Finished R Script: [MechaCarChallenge.R](https://github.com/ZeroDarkHardy/MechaCar_Statistical_Analysis/blob/main/MechaCarChallenge.R)
 
 ---
 
 ## Linear Regression to Predict MPG
 
-Given a [dataset]() containing MPG test results for 50 prototype MechaCars, we designed a linear model to predict MPG using several variables.
+Given a [dataset](https://github.com/ZeroDarkHardy/MechaCar_Statistical_Analysis/blob/main/Resources/MechaCar_mpg.csv) containing MPG test results for 50 prototype MechaCars, we designed a linear model to predict MPG using several variables.
 
-![linear_regression.png]()
+![linear_regression.png](https://github.com/ZeroDarkHardy/MechaCar_Statistical_Analysis/blob/main/images/linear_regression.png)
 
 - When we examine our linear model, two coefficients show a non-random amount of variance:
     - Vehicle length, which has a P-value of 2.6x10<sup>-12</sup>.
@@ -29,18 +29,26 @@ Given a [dataset]() containing MPG test results for 50 prototype MechaCars, we d
 
 ## Summary Statistics of Suspension Coil Data
 
-Our [Suspension Coil dataset]() contains the results from muple production lots. We created statistical summary dataframes to ascertain whether the manufacturing process is consistent between the various facilities
+Our [Suspension Coil dataset](https://github.com/ZeroDarkHardy/MechaCar_Statistical_Analysis/blob/main/Resources/Suspension_Coil.csv) contains the results from muple production lots. We created statistical summary dataframes to ascertain whether the manufacturing process is consistent between the various facilities
 
-![deliverable2_code.png]()
+![deliverable2_code.png](https://github.com/ZeroDarkHardy/MechaCar_Statistical_Analysis/blob/main/images/deliverable2_code.png)
 
 -Using the code shown above, we created our statistical summaries.
 
-![total_summary_df.png]()
+![total_summary_df.png](https://github.com/ZeroDarkHardy/MechaCar_Statistical_Analysis/blob/main/images/total_summary_df.png)
 
 
-![lot_summary_df.png]()
+![lot_summary_df.png](https://github.com/ZeroDarkHardy/MechaCar_Statistical_Analysis/blob/main/images/lot_summary_df.png)
 
 
 ## T-Tests on Suspension Coils
+
+![deliverable3_1.png](https://github.com/ZeroDarkHardy/MechaCar_Statistical_Analysis/blob/main/images/deliverable3_1.png)
+
+![deliverable3_2.png](https://github.com/ZeroDarkHardy/MechaCar_Statistical_Analysis/blob/main/images/deliverable3_2.png)
+
+![deliverable3_3.png](https://github.com/ZeroDarkHardy/MechaCar_Statistical_Analysis/blob/main/images/deliverable3_3.png)
+
+![deliverable3_4.png](https://github.com/ZeroDarkHardy/MechaCar_Statistical_Analysis/blob/main/images/deliverable3_4.png)
 
 ## Comparison Study: MechaCar vs. Competition
