@@ -31,7 +31,7 @@ Given a [dataset](https://github.com/ZeroDarkHardy/MechaCar_Statistical_Analysis
 
 ## Summary Statistics of Suspension Coil Data
 
-Our [Suspension Coil dataset](https://github.com/ZeroDarkHardy/MechaCar_Statistical_Analysis/blob/main/Resources/Suspension_Coil.csv) contains the results from muple production lots. We created statistical summary dataframes to ascertain whether the manufacturing process is consistent between the various facilities
+Our [Suspension Coil dataset](https://github.com/ZeroDarkHardy/MechaCar_Statistical_Analysis/blob/main/Resources/Suspension_Coil.csv) contains the results from multiple production lots. We created statistical summary dataframes to ascertain whether the manufacturing process is consistent between the various facilities.
 
 ![deliverable2_code.png](https://github.com/ZeroDarkHardy/MechaCar_Statistical_Analysis/blob/main/images/deliverable2_code.png)
 
